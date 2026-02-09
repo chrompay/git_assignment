@@ -102,3 +102,42 @@ footer {
     padding: 15px;
     margin-top: 40px;
 }
+/* Promotional Offer Section */
+.promo {
+    background: linear-gradient(135deg, #000, #333);
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.promo h2 {
+    color: #f4c430;
+    margin-bottom: 10px;
+}
+
+.promo-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.promo-note {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.promo-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #f4c430;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.promo-btn:hover {
+    background: #ffd700;
+}
