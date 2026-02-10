@@ -141,3 +141,50 @@ footer {
 .promo-btn:hover {
     background: #ffd700;
 }
+
+/* Blog Layout */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+/* Blog Card */
+.blog-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.blog-date {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.read-more {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.read-more:hover {
+    color: #f4c430;
+}
